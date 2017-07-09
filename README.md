@@ -1,12 +1,13 @@
 # py_smartjson
 A python script to parse smart data to JSON.  
 
-requires smartctl (smartmontools)
+- requires smartctl (smartmontools)
+- requires pySMART, jsonpickle
 
-requires pySMART, jsonpickle
 
-apt install smartmontools -y
+At least for Ubuntu
+- apt install smartmontools pip -y
 
-pip install pySMART
-
-pip install jsonpickle
+Then use pip to install
+- pip install pySMART
+- pip install jsonpickle
