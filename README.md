@@ -7,4 +7,5 @@ requires pySMART, jsonpickle
 apt install smartmontools -y
 
 pip install pySMART
+
 pip install jsonpickle
